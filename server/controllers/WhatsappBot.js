@@ -35,9 +35,9 @@ class WhatsappBot {
     // const senderName = 
     console.log(body);
 
-    if(/help/.test(body)){
+    // if(/help/.test(body)){
 
-    }
+    // }
 
     getSummary().then(result => {
       twiml.message(`${result}`);
